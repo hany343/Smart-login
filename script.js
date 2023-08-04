@@ -60,6 +60,7 @@ function register() {
         users.push(user);
         localStorage.setItem('users', JSON.stringify(users))
         console.log(users, 'saved')
+        clearForm();
     }
 }
 
@@ -71,4 +72,11 @@ function checkLocalStorage() {
     } else {
         console.log("Local Storage empty")
     }
+}
+
+function clearForm(){
+    document.getElementById('name').innerHTML=''
+    document.getElementById('email').innerHTML='';
+    document.getElementById('pass').innerHTML=''
+   
 }
