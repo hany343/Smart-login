@@ -1,0 +1,20 @@
+body{
+    background: #24353f;
+    font-family: 'Titillium Web', sans-serif;
+}
+.clr-teal{
+    color: #17a2b8;
+}
+.bg-teal{
+    background-color: #17a2b8;
+}
+.border-teal{
+    border-color: #17a2b8;
+}
+.box{
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+.btn:hover{
+    background-color:  #17a2b8;
+    color: white;
+}
